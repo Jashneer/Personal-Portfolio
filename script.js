@@ -16,3 +16,6 @@ var typed = new Typed(".typing",{
     loop: true
 
 })
+
+require('dotenv').config();
+const apiKey = process.env.GOOGLE_API_KEY;
